@@ -176,7 +176,7 @@ export default function () {
                }
 
                const newVariable = figma.variables.createVariable(
-                  variable.name + "-P",
+                  variable.name,
                   newCollection,
                   variable?.resolvedType
                );
